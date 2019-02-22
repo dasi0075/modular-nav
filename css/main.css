@@ -23,3 +23,16 @@ html {
 body {
   margin: 0;
 }
+
+.navigation {
+  background-color: #e2e2e2;
+}
+
+li {
+  text-decoration: none;
+  list-style-type: none;
+}
+.planets {
+  background-color: #0074d9;
+  color: #fff;
+}
