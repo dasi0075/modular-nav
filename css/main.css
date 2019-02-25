@@ -24,14 +24,34 @@ body {
   margin: 0;
 }
 
-.navigation {
+.masthead {
   background-color: #e2e2e2;
 }
 
 li {
-  text-decoration: none;
   list-style-type: none;
 }
+
+ul {
+  display: inline-block;
+  width: 100%;
+}
+
+a {
+  text-decoration: none;
+  color: #0074d9;
+  padding: .5em;
+  margin-bottom: .2rem;
+}
+
+nav {
+  list-style-type: none;
+}
+
+.list-item-inline {
+  display: inline-block;
+}
+
 .planets {
   background-color: #0074d9;
   color: #fff;
