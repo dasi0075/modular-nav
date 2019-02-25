@@ -35,6 +35,7 @@ li {
 ul {
   display: inline-block;
   width: 100%;
+  margin: 0;
 }
 
 a {
