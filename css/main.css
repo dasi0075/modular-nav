@@ -13,7 +13,6 @@ html {
   text-size-adjust: 100%;
 
   font-family: sans-serif;
-
 }
 
 *, *::before, *::after {
@@ -36,11 +35,11 @@ li {
 ul {
   display: inline-block;
   width: 100%;
-  padding: 0;
 }
 
 a {
   text-decoration: none;
+  display: inline-block;
   color: #0074d9;
   padding: .5em;
   margin-bottom: .2rem;
@@ -65,7 +64,17 @@ nav {
   color: #fff;
 }
 
+.logo {
+  text-align: center;
+}
+
+.nav {
+  text-align: center;
+}
+
+
 @media only screen and (min-width: 38em) {
+
   .logo {
     text-align: left;
   }
@@ -74,7 +83,4 @@ nav {
     text-align: right;
   }
 
-  }
-
-
-  }
+}
